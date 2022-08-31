@@ -23,8 +23,11 @@ Implementacion de Backend en Node Js y Front End en React Js, para clonar el pro
   - Ejecutar el comando npm start en la carpeta react-app
   
 ## Navegador
-  - La aplicación se ejecuta en el puerto 4000 para el front end y en el puerto 3000 para el backend
-  
+  - La aplicación se ejecuta en el puerto 3000 para el front end y en el puerto 4000 para el backend
+  - Las rutas de acceso son las siguientes:
+    - Para empleados: empleados/listar
+    - Para usuarios: usuarios/listar
+    - Para login: login
 Autor: Francisco Ulloa
 Contacto: 0998630405
 
