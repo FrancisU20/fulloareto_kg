@@ -1,5 +1,5 @@
 # fulloareto_kg
-Implementacion de Backend en Node Js y Front End en React Js 
+Implementacion de Backend en Node Js y Front End en React Js, para clonar el proyecto por favor clónese la rama master.
 
 ## Dependencias 
  - Instalar Node JS en el computador en su ultima version LTS
