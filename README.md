@@ -28,7 +28,7 @@ Implementacion de Backend en Node Js y Front End en React Js, para clonar el pro
     - Para empleados: empleados/listar
     - Para usuarios: usuarios/listar
     - Para login: login
-Autor: Francisco Ulloa
-Contacto: 0998630405
+## Autor: Francisco Ulloa
+## Contacto: 0998630405
 
 Happy Coding!
