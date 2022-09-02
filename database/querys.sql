@@ -34,7 +34,7 @@ CREATE TABLE usuario(
 );
 
 CREATE TABLE roles(
-id serial NOT NULL, tipo_rol varchar NOT NULL,
+id serial NOT NULL, tipo_rol varchar NOT NULL UNIQUE,
   CONSTRAINT roles_pkey PRIMARY KEY(id)
 );
 
@@ -49,3 +49,8 @@ ALTER TABLE usuario
 ALTER TABLE usuario
   ADD CONSTRAINT usuario_empleado_id_fkey
     FOREIGN KEY (empleado_id) REFERENCES empleado (id);
+    
+INSERT INTO public.roles(tipo_rol)
+	VALUES ("Empleado");
+INSERT INTO public.roles(tipo_rol)
+	VALUES ("Administrador");
